@@ -20,9 +20,9 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 # Configuration for destination path and download history
 # Use BASE_DIR for files located inside the 'src' directory
-config_file = os.path.join(BASE_DIR, "config.json")
-history_file = os.path.join(BASE_DIR, "history.json")
-translations_file = os.path.join(BASE_DIR, "translations.json")
+config_file = os.path.join("src/config.json")
+history_file = os.path.join("src/history.json")
+translations_file = os.path.join("src/translations.json")
 
 
 def load_config():
